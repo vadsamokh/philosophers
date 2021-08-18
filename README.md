@@ -12,7 +12,7 @@ Philosophers can eat only if they take both nearby forks.
 
 After eating, they fall asleep.
 
-After sleeping, they want to eat at once. While philosophers can't take their forks, they eat.
+After sleeping, they want to eat at once. While philosophers can't take their forks, they think.
 
 If a philosopher can't eat for certain time, he dies, and the simulation stops.
 
