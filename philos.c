@@ -122,19 +122,7 @@ int	start_simulation(t_all *all)
 			return (print_error(4));
 		pthread_detach(tid);
 		usleep(100);
-		//if (philo_launch(tid, &all->philos[i]) == 1)
-		//	return (1);
 		i++;
 	}
-	/*i = 1;
-	while (i < all->num)
-	{
-		if (pthread_create(&tid, NULL, &life, (void *)(&all->philos[i])) != 0)
-			return (print_error(4));
-		pthread_detach(tid);
-		if (philo_launch(tid, &all->philos[i]) == 1)
-			return (print_error(4));
-		i = i + 2;
-	}*/
 	return (0);
 }
