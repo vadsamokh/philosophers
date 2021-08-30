@@ -52,7 +52,6 @@ int			ft_atoi(const char *str);
 uint64_t	get_time(void);
 int			start_simulation(t_all *all);
 void		*life(void *philo_copy);
-//int			philo_launch(pthread_t tid, t_philos *philo);
 void		init_philos(t_all *all);
 void		take_forks(t_philos *philo);
 void		put_forks_back(t_philos *philo);
